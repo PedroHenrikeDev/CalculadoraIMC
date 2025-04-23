@@ -1,0 +1,92 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(220, 219, 240) 0%, rgb(53, 133, 198) 35%, rgba(0,212,255,1) 100%);
+}
+
+/*container da calculadora*/
+.CalculadoraIMC {
+    width: 70%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 160px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Título do formulário */
+.CalculadoraIMC h2 {
+    text-align: center;
+    color: #2e5efb;
+  }
+
+.CalculadoraIMC label{
+    position:relative;
+    left: 300px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(49, 88, 240);
+    margin-top: 15px;
+
+}
+
+.CalculadoraIMC input{
+    position:relative;
+    left: 300px;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.CalculadoraIMC input::placeholder{
+    color: #aaa;
+}
+
+.CalculadoraIMC input:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button{
+    position:relative;
+    left: 300px;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    width: 115px;
+    height: 38px;
+    border-radius: 62px;
+}
+
+button:hover{
+    background-color: rgb(0, 234, 255);
+    color: white;  
+}
+
+button:active{
+    background-color: rgb(7, 5, 105);
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(49, 88, 240);
+    margin-top: 15px; 
+    margin-bottom: 20px;
+}
